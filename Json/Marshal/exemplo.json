@@ -1,0 +1,19 @@
+{
+  "nome": "Lucas",
+  "idade": 20,
+  "profissao": "Desenvolvedor",
+  "hobbies": [
+    {
+      "nome": "jogar futebol",
+      "frequencia": "semanal"
+    },
+    {
+      "nome": "tocar violão",
+      "frequencia": "diária"
+    },
+    {
+      "nome": "programar",
+      "frequencia": "diária"
+    }
+    ]
+}
