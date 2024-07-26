@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        h2{
+            color: #ff2cdc;
+            font-size: 100px;
+            font-family: "Apple Color Emoji";
+        }
+
+        marquee {
+            color : blue;
+            font-size: 100px;
+            font-family: "Apple Color Emoji";
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2> Página Principal </h2>
+   <button id="botao">  Login </button>
+    <script>
+       var botao = document.getElementById("botao");
+         botao.onclick = function (){
+              alert("Clicou no botão")
+         }
+    </script>
+
+    <h4> Seja Bem Vindo, {{.Nome }} </h4>
+
+</body>
+
+</html>
+
+<!--
+    {
+        Nome: "Lucas",
+        Email: "  ...  ",
+    }
+-->
